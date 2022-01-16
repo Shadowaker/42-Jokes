@@ -1,2 +1,2 @@
 # 42-Jokes
-42 are fun
+42 is fun
