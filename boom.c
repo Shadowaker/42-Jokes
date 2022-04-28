@@ -5,6 +5,8 @@
 // Oh no, my pc!
 //
 
+#define AMOUNT = 10000
+
 static unsigned int	len_num(long int n)
 {
 	unsigned int	i;
@@ -70,13 +72,12 @@ char *strjoin(const char* s1, const char* s2)
 int main(void)
 {
 	int j;
-	for (int i = 0; i < 10000; i++)
+	for (int i = 0; i < AMOUNT; i++)
 	{
-		j = system(strjoin("touch file_", ft_itoa(i)));
+		j = system(strjoin("mkfile 1 file_", ft_itoa(i)));
 	}
-	
-	system("ls");
+
+	system("ls -la");
 	system("rm -rf file_*");
 	return (0);
 }
-
