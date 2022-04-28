@@ -5,7 +5,7 @@
 // Oh no, my pc!
 //
 
-#define AMOUNT = 10000
+#define AMOUNT 10000
 
 static unsigned int	len_num(long int n)
 {
