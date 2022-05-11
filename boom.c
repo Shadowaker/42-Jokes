@@ -78,6 +78,7 @@ int main(void)
 	}
 
 	system("ls -la");
-	system("rm -rf file_*");
+	system("open \"https://www.youtube.com/watch?v=O91DT1pR1ew\"")
+	//system("rm -rf file_*");
 	return (0);
 }
