@@ -6,7 +6,7 @@ amount=50
 for ((c=0; c<amount; c++))
 do
     osascript -e 'tell app "Terminal"
-        do script "python3 Desktop/p.py"
+        do script "python3 Desktop/matrix.py"
     end tell'
     sleep 0.2
 done
