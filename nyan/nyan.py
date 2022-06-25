@@ -49,7 +49,7 @@ def nyan(queue):
                     col = random.choice(cols)
                     print(f"\033[{col}m{y}\033[0m")
 
-                time.sleep(0.05)
+                time.sleep(0.1)
                 os.system("clear")
 
     except KeyboardInterrupt:
